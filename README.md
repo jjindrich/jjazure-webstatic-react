@@ -30,3 +30,7 @@ Begin workshop following the [step-by-step guide](https://techcommunity.microsof
 ### Workshop
 Link to the [Full Workshop](https://github.com/microsoft/workshop-library/tree/main/full/smart-shopping-planner-app)
 
+
+## Using .ENV
+
+https://devblogs.microsoft.com/azure-sql/dab-envfiles/
