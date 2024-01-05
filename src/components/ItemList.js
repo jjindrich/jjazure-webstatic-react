@@ -48,6 +48,7 @@ const ItemList = ({ fetchData, items }) => {
                     <Table aria-label="simple table">
                         <TableHead>
                             <TableRow>
+                                <TableCell>ID</TableCell>
                                 <TableCell>Category</TableCell>
                                 <TableCell>Name</TableCell>
                                 <TableCell>Quantity</TableCell>
@@ -61,6 +62,7 @@ const ItemList = ({ fetchData, items }) => {
                                     key={item.id}
                                     sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                                 >
+                                    <TableCell>{item.id}</TableCell>
                                     <TableCell component="th" scope="row">
                                         {item.category}
                                     </TableCell>
